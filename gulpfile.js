@@ -4,19 +4,19 @@ var reload= browserSync.reload;
 
 gulp.task('browser-sync', function(){
   browserSync.init({
-    server: "./dist/"
+    server: "./"
   })
 } );
 
 gulp.task('css', function() {
   gulp.src('./css/**/*.css')
     .pipe(minify())
-    .pipe(gulp.dest('./css/estilos.css'));
+    .pipe(gulp.dest('./css/main.css'));
 });
 
 gulp.task('watch', ["browser-sync"], () =>{
-      gulp.watch("./css/estilos.css", ['css']);
-      gulp.watch("./dist/*.html").on('change', browserSync.reload);
+      gulp.watch("./css/**/*.css", ['css']);
+      gulp.watch("./*.html").on('change', browserSync.reload);
 
 });
 
