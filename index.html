@@ -1,272 +1,676 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-  <head>
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Infinity</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>Creative - Start Bootstrap Theme</title>
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+</head>
 
-    <!-- Custom styles for this template -->
-    <link href="css/creative.min.css" rel="stylesheet">
+<body id="top">
 
-  </head>
+	<!-- header
+   ================================================== -->
+   <header>
 
-  <body id="page-top">
+   	<div class="header-logo">
+	      <a href="index.html">DYE</a>
+	   </div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+		<a id="header-menu-trigger" href="#0">
+		 	<span class="header-menu-text">Menu</span>
+		  	<span class="header-menu-icon"></span>
+		</a>
 
-    <header class="masthead text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase background-color="black">
-              <strong>Your Favorite Source of Free Bootstrap Themes</strong>
-            </h1>
-            <hr>
-          </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-          </div>
-        </div>
-      </div>
-    </header>
+		<nav id="menu-nav-wrap">
 
-    <section class="bg-primary" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-          </div>
-        </div>
-      </div>
-    </section>
+			<a href="#0" class="close-button" title="close"><span>Close</span></a>
 
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
-            <hr class="my-4">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Sturdy Templates</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Ready to Ship</h3>
-              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Up to Date</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Made with Love</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+	   	<h3>Dye</h3>
 
-    <section class="p-0" id="portfolio">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/1.jpg">
-              <img class="img-fluid" src="img/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
+			<ul class="nav-list">
+				<li class="current"><a class="smoothscroll" href="#home" title="">Inicio</a></li>
+				<li><a class="smoothscroll" href="#about" title="">Importancia</a></li>
+				<li><a class="smoothscroll" href="#services" title="">Servicio</a></li>
+				<li><a class="smoothscroll" href="#portfolio" title="">Tecnologia</a></li>
+				<li><a class="smoothscroll" href="#contact" title="">Contacto</a></li>
+			</ul>
+
+			<p class="sponsor-text">
+				Este Proyecto Es BKN!
+				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
+			</p>
+
+			<ul class="header-social-list">
+	         <li>
+	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	         </li>
+	         <li>
+	         	<a href="#"><i class="fa fa-twitter"></i></a>
+	         </li>
+	         <li>
+	         	<a href="#"><i class="fa fa-instagram"></i></a>
+	         </li>
+	      </ul>
+
+		</nav>  <!-- end #menu-nav-wrap -->
+
+	</header> <!-- end header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home">
+
+   	<div class="overlay"></div>
+
+   	<div class="home-content-table">
+		   <div class="home-content-tablecell">
+		   	<div class="row">
+		   		<div class="col-twelve">
+
+			  				<!--<h3 class="animate-intro">Domain Your Energy</h3>-->
+				  			<h1 class="animate-intro">
+							Domain Your Energy <br>
+							Domain Your Life
+				  			</h1>
+
+				  			<div class="more animate-intro">
+				  				<a class="smoothscroll button stroke" href="#about">
+				  					Sigue Informandote
+
+				  				</a>
+				  			</div>
+
+			  		</div> <!-- end col-twelve -->
+		   	</div> <!-- end row -->
+		   </div> <!-- end home-content-tablecell -->
+		</div> <!-- end home-content-table -->
+
+		<ul class="home-social-list">
+	      <li class="animate-intro">
+	        	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	      </li>
+	      <li class="animate-intro">
+	        	<a href="#"><i class="fa fa-twitter"></i></a>
+	      </li>
+	      <li class="animate-intro">
+	        	<a href="#"><i class="fa fa-instagram"></i></a>
+	      </li>
+
+	   </ul> <!-- end home-social-list -->
+
+		<div class="scrolldown">
+			<a href="#about" class="scroll-icon smoothscroll">
+		   	Sigue Informandote
+		   	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+			</a>
+		</div>
+
+   </section> <!-- end home -->
+
+
+   <!-- about
+   ================================================== -->
+   <section id="about">
+
+   	<div class="row about-wrap">
+   		<div class="col-full">
+
+   			<div class="about-profile-bg"></div>
+
+				<div class="intro">
+					<h3 class="animate-this">¿Por Que Es Importante?</h3>
+	   			<p class="lead animate-this"><span>Infinity</span> is a creative digital agency based in Manila, Philippines. We are composed of creative designers and experienced developers.</p>
+				</div>
+
+   		</div> <!-- end col-full  -->
+   	</div> <!-- end about-wrap  -->
+
+   </section> <!-- end about -->
+
+
+   <!-- about
+   ================================================== -->
+   <section id="services">
+
+   	<div class="overlay"></div>
+   	<div class="gradient-overlay"></div>
+
+   	<div class="row narrow section-intro with-bottom-sep animate-this">
+   		<div class="col-full">
+
+   				<h3>Servicio</h3>
+   			   <h1>¿En Que Consiste?</h1>
+
+   			   <p class="lead">Lorem ipsum Elit ut consequat veniam eu nulla nulla reprehenderit reprehenderit sit velit in cupidatat ex aliquip ut cupidatat Excepteur tempor id irure sed dolore sint sunt voluptate ullamco nulla qui Duis qui culpa voluptate enim ea aute qui veniam in irure et nisi nostrud deserunt est officia minim.</p>
+
+   	   </div> <!-- end col-full -->
+   	</div> <!-- end row -->
+
+   	<div class="row services-content">
+
+   		<div class="services-list block-1-2 block-tab-full group">
+
+	      	<div class="bgrid service-item animate-this">
+
+	      		<span class="icon"><i class=" icon-earth"></i></span>
+
+	            <div class="service-content">
+	            	<h3 class="h05">Consumo Global</h3>
+
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p>
+	         	</div>
+
+				</div> <!-- end bgrid -->
+
+				<div class="bgrid service-item animate-this">
+
+					<span class="icon"><i class="icon-battery-high"></i></span>
+
+	            <div class="service-content">
+	            	<h3 class="h05">Consumo Individual</h3>
+
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p>
+	            </div>
+
+			   </div> <!-- end bgrid -->
+
+			   <div class="bgrid service-item animate-this">
+
+			   	<span class="icon"><i class="icon-brightness"></i></span>
+
+	            <div class="service-content">
+	            	<h3 class="h05">Alarma Inteligente</h3>
+
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p>
+	            </div>
+
+			   </div> <!-- end bgrid -->
+
+				<div class="bgrid service-item animate-this">
+
+					<span class="icon"><i class="icon-factory"></i></span>
+
+	            <div class="service-content">
+	            	<h3 class="h05">Optimizacion Energetica</h3>
+
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p>
+	            </div>
+
+				</div> <!-- end bgrid -->
+
+	      </div> <!-- end services-list -->
+
+   	</div> <!-- end services-content -->
+
+   </section> <!-- end services -->
+
+
+   <!-- portfolio
+   ================================================== -->
+   <section id="portfolio">
+
+   	<div class="intro-wrap">
+
+   		<div class="row narrow section-intro with-bottom-sep animate-this">
+	   		<div class="col-twelve">
+	   			<h3>Tecnologia</h3>
+		   		<h1>¿Como Funciona?</h1>
+
+		   		<p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+	   		</div>
+	   	</div> <!-- end row section-intro -->
+
+   	</div> <!-- end intro-wrap -->
+
+   	<div class="row portfolio-content">
+   		<div class="col-twelve">
+   			<div id="folio-wrap" class="bricks-wrapper">
+
+   				<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-shutterbug.jpg" data-sub-html="#01" >
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/shutterbug.jpg" alt="Skaterboy">
+	                     <div class="item-text">
+	                     	<span class="folio-types">
+		     					      Web Development
+		     					   </span>
+		     					   <h3 class="folio-title">Shutterbug</h3>
+		     					</div>
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+						<div id="01" class='hide'>
+							<h4>Shutterbug</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="https://www.behance.net/">Details</a></p>
+						</div>
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-yellowwall.jpg" data-sub-html="#02">
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/yellowwall.jpg" alt="Shutterbug">
+	                     <div class="item-text">
+	                     	<span class="folio-types">
+		     					      Marketing
+		     					   </span>
+		     					   <h3 class="folio-title">Yellow Wall</h3>
+		     					</div>
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="02" class='hide'>
+							<h4>Yellow Wall</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="https://www.behance.net/">Details</a></p>
+						</div>
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-architecture.jpg" data-sub-html="#03" >
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/architecture.jpg" alt="Explore">
+	                     <div class="item-text">
+		     					   <span class="folio-types">
+		     					      Web Design
+		     					   </span>
+		     					   <h3 class="folio-title">Architecture</h3>
+		     					</div>
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="03" class='hide'>
+							<h4>Architecture</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="https://www.behance.net/">Details</a></p>
+						</div>
+	        		</div> <!-- end folio-item -->
+
+					<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-minimalismo.jpg"  data-sub-html="#04" >
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/minimalismo.jpg" alt="Minimalismo">
+	                     <div class="item-text">
+		     					   <span class="folio-types">
+		     					      Web Design
+		     					   </span>
+		     					   <h3 class="folio-title">Minimalismo</h3>
+		     					</div>
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="04" class='hide'>
+							<h4>Minimalismo</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="https://www.behance.net/">Details</a></p>
+						</div>
+	        		</div> <!-- end folio-item -->
+
+					<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-skaterboy.jpg"  data-sub-html="#05" >
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/skaterboy.jpg" alt="Bicycle">
+	                     <div class="item-text">
+		     					   <span class="folio-types">
+		     					      Branding
+		     					   </span>
+		     					   <h3 class="folio-title">Skaterboy</h3>
+		     					</div>
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="05" class='hide'>
+							<h4>Skaterboy</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="https://www.behance.net/">Details</a></p>
+						</div>
+	        		</div> <!-- end folio-item -->
+
+					<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-salad.jpg"  data-sub-html="#06">
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/salad.jpg" alt="Salad">
+	                     <div class="item-text">
+		     					   <span class="folio-types">
+		     					      Branding
+		     					   </span>
+		     					   <h3 class="folio-title">Salad</h3>
+		     					</div>
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="06" class='hide'>
+							<h4>Salad</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>
+	        		</div> <!-- end folio-item -->
+
+   			</div> <!-- end folio-wrap -->
+   		</div> <!-- end twelve -->
+   	</div> <!-- end portfolio-content -->
+
+   </section>  <!-- end portfolio -->
+
+
+  <!-- Testimonials Section
+   ================================================== -->
+  <!--  <section id="testimonials">
+
+   	<div class="row">
+   		<div class="col-twelve">
+   			<h2 class="animate-this">What They Say About Us.</h2>
+   		</div>
+   	</div>
+
+      <div class="row flex-container">
+
+         <div id="testimonial-slider" class="flex-slider animate-this">
+
+            <ul class="slides">
+
+               <li>
+                  <p>
+                  Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                  to do what you believe is great work. And the only way to do great work is to love what you do.
+                  If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                  </p>
+
+                  <div class="testimonial-author">
+                    	<img src="images/avatars/user-02.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		Steve Jobs
+                    		<span class="position">CEO, Apple.</span>
+                    	</div>
                   </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/3.jpg">
-              <img class="img-fluid" src="img/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/2.jpg">
-              <img class="img-fluid" src="img/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+             	</li> end slide -->
 
-    <section class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-      </div>
-    </section>
+              <!--  <li>
+                  <p>
+                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                  </p>
 
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
-            <hr class="my-4">
-            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 ml-auto text-center">
-            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>123-456-6789</p>
-          </div>
-          <div class="col-lg-4 mr-auto text-center">
-            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-            <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+               	<div class="testimonial-author">
+                    	<img src="images/avatars/user-03.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		John Doe
+                    		<span>CEO, ABC Corp.</span>
+                    	</div>
+                  </div>
+           </li> end slide -->
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--  </ul> end slides -->
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!--     </div> end testimonial-slider -->
 
-    <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
+    <!--  </div>  end flex-container -->
 
-  </body>
+<!--   </section> end testimonials -->
+
+
+	<!-- stats
+   ================================================== -->
+  <!-- <section id="clients">
+
+		<div class="row animate-this">
+			<div class="col-twelve">
+
+				<div class="client-lists owl-carousel">
+  					<div><img src="images/clients/mozilla.png" alt=""></div>
+  					<div><img src="images/clients/bower.png" alt=""></div>
+  					<div><img src="images/clients/codepen.png" alt=""></div>
+  					<div><img src="images/clients/envato.png" alt=""></div>
+  					<div><img src="images/clients/firefox.png" alt=""></div>
+  					<div><img src="images/clients/grunt.png" alt=""></div>
+  					<div><img src="images/clients/evernote.png" alt=""></div>
+  					<div><img src="images/clients/github.png" alt=""></div>
+  					<div><img src="images/clients/joomla.png" alt=""></div>
+  					<div><img src="images/clients/jQuery.png" alt=""></div>
+  					<div><img src="images/clients/wordpress.png" alt=""></div>
+				</div>-->
+
+			<!-- </div>  end col-twelve -->
+		<!-- </div> end row -->
+
+   <!-- </section>  end clients -->
+
+
+	<!-- contact
+   ================================================== -->
+   <section id="contact">
+
+      <div class="overlay"></div>
+
+		<div class="row narrow section-intro with-bottom-sep animate-this">
+   		<div class="col-twelve">
+   			<h3>Contacto</h3>
+   			<h1>Sigue En Contacto</h1>
+
+   			<p class="lead">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+   		</div>
+   	</div> <!-- end section-intro -->
+
+   	<div class="row contact-content">
+
+   		<div class="col-seven tab-full animate-this">
+
+   			<h5>Envianos Un Mensaje</h5>
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post">
+
+               <div class="form-field">
+ 					   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+               </div>
+
+               <div class="row">
+                 	<div class="col-six tab-full">
+                 		<div class="form-field">
+                 			<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+                 		</div>
+		            </div>
+	            	<div class="col-six tab-full">
+	            		<div class="form-field">
+	            			<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	                  </div>
+		            </div>
+               </div>
+
+               <div class="form-field">
+	              	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	            </div>
+
+               <div class="form-field">
+                  <button class="submitform">Enviar</button>
+
+                  <div id="submit-loader">
+                     <div class="text-loader">Enviando...</div>
+       			      <div class="s-loader">
+							  	<div class="bounce1"></div>
+							  	<div class="bounce2"></div>
+							  	<div class="bounce3"></div>
+							</div>
+						</div>
+               </div>
+
+      		</form> <!-- end form -->
+
+            <!-- contact-warning -->
+            <div id="message-warning"></div>
+
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Tu mensaje fue enviado, Gracias!<br>
+      		</div>
+
+         </div> <!-- end col-seven -->
+
+         <div class="col-four tab-full contact-info end animate-this">
+
+         	<h5>Informacion de Contacto</h5>
+
+         	<div class="cinfo">
+	   			<h6>Donde Enontrarnos</h6>
+	   			<p>
+                Virginio Arias 1371, <br>
+                Ñuñoa,Región Metropolitana
+	            </p>
+	   		</div> <!-- end cinfo -->
+
+	   		<div class="cinfo">
+	   			<h6>Email</h6>
+	   			<p>
+	   				DomainYourEnergy@Gmail.com<br>
+				   </p>
+	   		</div> <!-- end cinfo -->
+
+	   		<div class="cinfo">
+	   			<h6>Telefono</h6>
+	   			<p>
+	   				Phone: (+63) 555 1212<br>
+				   	Mobile: (+63) 555 0100<br>
+				     	Fax: (+63) 555 0101
+				   </p>
+	   		</div>
+
+         </div> <!-- end cinfo -->
+
+   	</div> <!-- end row contact-content -->
+
+	</section> <!-- end contact -->
+
+
+	<!-- footer
+   ================================================== -->
+	<footer>
+     	<div class="footer-main">
+
+   		<div class="row">
+
+	      	<div class="col-five tab-full footer-about">
+
+	            <h4 class="h05">DYE</h4>
+
+	            <p>Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Proin eget tortor risus.</p>
+
+		      </div> <!-- end footer-about -->
+
+	      	<div class="col-three tab-full footer-social">
+
+	      		<h4 class="h05">Siguenos </h4>
+
+	      		<ul class="list-links">
+	      			<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Instagram</a></li>
+					</ul>
+
+	      	</div> <!-- end footer-social -->
+
+	      	<div class="col-four tab-full footer-subscribe end">
+
+	      		<h4 class="h05">Get Notified.</h4>
+
+	      		<p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa.</p>
+
+	      		<div class="subscribe-form">
+
+	      			<form id="mc-form" class="group" novalidate="true">
+
+							<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="type email" required="">
+
+			   			<!-- <input type="submit" name="subscribe" > -->
+			   			<button><i class="icon-mail"></i></button>
+
+		   				<label for="mc-email" class="subscribe-message"></label>
+
+						</form>
+
+	      		</div>
+
+	      	</div> <!-- end footer-subscribe -->
+
+	      </div> <!-- end row -->
+
+   	</div> <!-- end footer-main -->
+
+   	<div class="footer-bottom">
+
+      	<div class="row">
+
+      		<div class="col-twelve">
+	      		<div class="copyright">
+		         	<span>© Copyright DYE 2018.</span>
+		         </div>
+	      	</div>
+
+      	</div>
+
+      </div> <!-- end footer-bottom -->
+
+      <div id="go-top">
+		   <a class="smoothscroll" title="Back to Top" href="#top">
+		   	<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+		   </a>
+		</div>
+   </footer>
+
+   <div id="preloader">
+    	<div id="loader"></div>
+   </div>
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
 
 </html>
