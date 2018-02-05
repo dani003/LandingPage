@@ -24,7 +24,7 @@ app.get("/", ( req, res ) => {
   res.sendFile(__dirname + `/index.html`);
 });
 
-app.post('/contacto', ( req, res ) => {
+app.post('/contacto', ( req, res, next ) => {
   let transporter = nodemailer.createTransport({
           host: 'smtp.gmail.com',
           port: 465,
@@ -45,7 +45,7 @@ app.post('/contacto', ( req, res ) => {
    transporter.sendMail(mailOptions, (error, info) => {
          if (error) {
              console.log(error);
-             return res.send('Error')
+             return next({status: 200, message: 'Algo salió mal. Por favor intente otra vez.'})
          }
          console.log('Message %s sent: %s', info.messageId, info.response);
             return res.send('OK')

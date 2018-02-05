@@ -348,7 +348,6 @@
 			      },
 			      success: function(msg) {
 		            // Message was sent
-								console.log('msg',msg);
 		            if (msg == 'OK') {
 		            	sLoader.fadeOut();
 		               $('#message-warning').hide();
@@ -358,7 +357,7 @@
 		            // There was an error
 		            else {
 		            	sLoader.fadeOut();
-		               $('#message-warning').html(msg);
+		               $('#message-warning').html(msg.error);
 			            $('#message-warning').fadeIn();
 		            }
 			      },
