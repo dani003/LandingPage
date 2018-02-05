@@ -4,7 +4,8 @@
   "description": "==================================================================================================",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,10 @@
   },
   "homepage": "https://github.com/dani003/LandingPage#readme",
   "dependencies": {
-    "express": "^4.16.2",
     "gulp": "^3.9.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.6"
+    "browser-sync": "^2.23.6",
+    "express": "^4.16.2"
   }
 }
