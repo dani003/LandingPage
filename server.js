@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 var express = require('express')
 var bodyparser = express()
@@ -20,7 +19,6 @@ app.get('/', (req, res) => {
 
 app.listen(5000, function(){
   console.log('Example app listening on port 5000!');
-=======
 const express = require('express')
 const logger = require('morgan')
 const bodyParser = require('body-parser')
@@ -85,5 +83,4 @@ app.use( ( err, req, res, next ) => {
 
 app.listen(3002, () => {
   console.log('Example app listening on port 3002!');
->>>>>>> 7fa7bb90f1ee7a44edb50ab93083f91ef7607343
 });

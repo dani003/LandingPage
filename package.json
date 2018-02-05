@@ -19,13 +19,13 @@
   },
   "homepage": "https://github.com/dani003/LandingPage#readme",
   "dependencies": {
-<<<<<<< HEAD
+
     "gulp": "^3.9.1"
   },
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "express": "^4.16.2"
-=======
+
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "gulp": "^3.9.1",
@@ -34,6 +34,6 @@
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "morgan": "^1.9.0"
->>>>>>> 7fa7bb90f1ee7a44edb50ab93083f91ef7607343
+
   }
 }
