@@ -18,10 +18,13 @@
   },
   "homepage": "https://github.com/dani003/LandingPage#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "nodemailer": "^4.4.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.6"
+    "browser-sync": "^2.23.6",
+    "morgan": "^1.9.0"
   }
 }
