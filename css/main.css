@@ -1260,10 +1260,10 @@ header .header-logo a {
   padding: 0;
   outline: 0;
   border: none;
-  width: 100px;
-  height: 50px;
-  background: url("../images/logo.png") no-repeat center;
-  background-size: 120px 50px;
+  width: 285px;
+  height: 90px;
+  background: url("../images/logo1.png") no-repeat center;
+  background-size: 282px 87px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1535,6 +1535,7 @@ header .header-logo a {
   display: table;
   position: relative;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .home-content-tablecell {
@@ -2801,7 +2802,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 footer {
-  margin: 0 0 5.4rem 0;
+  margin: 0 0 3rem 0;
   padding: 0;
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.4);
@@ -2990,6 +2991,10 @@ footer h4.h05::after {
     display: block;
   }
   .footer-bottom .copyright span::after {
+    display: none;
+  }
+
+  .scrolldown {
     display: none;
   }
 }

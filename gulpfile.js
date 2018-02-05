@@ -8,14 +8,8 @@ gulp.task('browser-sync', function(){
   })
 } );
 
-gulp.task('css', function() {
-  gulp.src('./css/**/*.css')
-    .pipe(minify())
-    .pipe(gulp.dest('./css/main.css'));
-});
-
 gulp.task('watch', ["browser-sync"], () =>{
-      gulp.watch("./css/**/*.css", ['css']);
+      gulp.watch("./css/**/*.css").on('change', browserSync.reload);;
       gulp.watch("./*.html").on('change', browserSync.reload);
 
 });
